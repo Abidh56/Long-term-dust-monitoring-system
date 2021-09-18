@@ -3,10 +3,10 @@
 #include <BlynkSimpleShieldEsp8266.h>
 #include <SimpleTimer.h>
 
-char auth[] = "fI1Hhyw20XUE7WmUhcJhJ_QAFHVYkPxQ";  //The authentication token send to your email 
+char auth[] = "Your Auth";  //The authentication token send to your email 
 //Your WIFI credentials
-char ssid[] = "ABID";                             
-char pass[] = "8901234567";
+char ssid[] = "SSID";                             
+char pass[] = "PASSWORD";
 
 #define ESP8266_BAUD 115200    
 ESP8266 wifi(&Serial);
